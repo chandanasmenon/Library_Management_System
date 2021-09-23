@@ -4,9 +4,9 @@ Design Principles:
 
 Software design principles represent a set of guidelines that helps us to avoid having a bad design. The design principles are associated to Robert Martin who gathered them in "Agile Software Development: Principles, Patterns, and Practices". According to Robert Martin there are 3 important characteristics of a bad design that should be avoided:
 
-Rigidity - It is hard to change because every change affects too many other parts of the system.
-Fragility - When you make a change, unexpected parts of the system break.
-Immobility - It is hard to reuse in another application because it cannot be disentangled from the current application.
+1. Rigidity - It is hard to change because every change affects too many other parts of the system.
+2. Fragility - When you make a change, unexpected parts of the system break.
+3. Immobility - It is hard to reuse in another application because it cannot be disentangled from the current application.
 
 1.Open Close Principle:
 Software entities like classes, modules and functions should be open for extension but closed for modifications.
